@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+	<!-- the menu button -->
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+    
+	<ion-title>About us</ion-title>
+
+	<!-- the log out button -->
+    <ion-buttons slot="end">
+		<ion-button (click)="logout()">
+		  <ion-icon slot="icon-only" name="log-out"></ion-icon>
+		</ion-button>
+	  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<div class="title">
+		<h1>About us</h1>
+	</div>
+<ion-card>
+	<h2 id="first"> 
+		Thank you for choosing our weather application. We are committed to continuously improving our services and providing you with the best weather information available.
+	</h2>
+	<h2 id="second">
+		You can find me at:
+	</h2>
+	<ion-icon name="logo-github" class="github"></ion-icon>
+	<p><a href="https://github.com/mohammedlrj" target=”_blank”>mohammedlrj</a></p>
+</ion-card>
+<div class="center">
+	<ion-icon name="accessibility-outline" class="ukkeli"></ion-icon>
+</div>
+</ion-content>

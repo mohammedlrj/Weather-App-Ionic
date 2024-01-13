@@ -1,0 +1,42 @@
+ion-avatar {
+  width: 128px;
+  height: 128px;
+}
+
+.ion-padding {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.fallback {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background: #bfbfbf;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.title {
+  padding-top: 20px;
+  padding-bottom: 7px;
+}
+
+h1 {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin: 15px;
+  font-size: 2em;
+}
